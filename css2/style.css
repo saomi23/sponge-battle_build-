@@ -1,0 +1,399 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	width: 320px;
+	height: 568px;
+	font-size: 12px;
+	font-family: "Helvetica-Light", "Helvetica Light", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 26pt;
+	letter-spacing: 2px;
+	color: #2c2c2c;
+	margin: 0 auto 0 auto;
+}
+
+section {
+	margin:0;
+	padding:0;
+}
+
+div#wrapper {
+	width: 100%;
+	text-align: center;
+	background-color:#585da1;
+	background-image:url(../images/bg.jpg);
+	background-size: 320px,568px;
+}
+
+/* 見出し（hタグ） */
+
+h1,h2 {
+	color:#fff;
+}
+
+div#title {
+	width: 180px;
+	display: block;
+	float: left;
+	position: relative;
+	left: 111px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-top:2px;
+}
+
+h1 {
+	display: block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000;
+	text-shadow: 1px 1px 3px #5e5f66;
+	text-align: left;
+	font-size: 16px;
+	position: relative;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	margin:0;
+	text-align: center;
+	width: 100%;
+	height: 39px;
+	background-image:url(../images/h2_bg.png);
+	background-size:320px,39px;
+	font-size:14px;
+	font-weight:normal;
+}
+
+h3 {
+	color: #babaa5;
+	font-weight: normal;
+	font-size:12px;
+}
+
+section#h3 {
+	width: 320px;
+	height: 39px;
+	background-image:url(../images/h3_bg.png);
+	background-size:320px,39px;
+	margin: 34px 0;
+}
+
+/* ボックス */
+
+#header {
+	margin:0;
+	min-height: 48px;
+	background:url(../images/h1_bg.png) no-repeat;
+	background-size: 320px,48px;
+	position:relative;
+	overflow:hidden;
+}
+
+.h_back {
+	position: relative;
+	width: 70px;
+	height: 48px;
+	float:left;
+}
+
+.h_back_img {
+	margin-top: 5px;
+	position: absolute;
+	left: 9px;
+	width: 60px;
+	height: 35px;
+	background-image: url(../images/h_back.png);
+	background-size: 60px,35px;
+}
+
+.h_back_img_on {
+	margin-top: 11px;
+	position: absolute;
+	left: 18px;
+	width: 60px;
+	height: 35px;
+	background-image: url(../images/h_back_on.png);
+	background-size: 60px,35px;
+}
+
+.h_build {
+	position: relative;
+	float:right;
+	width: 70px;
+	height: 48px;
+}
+
+#h_build_img {
+	margin-top: 5px;
+	position: absolute;
+	right: 6px;
+	width: 60px;
+	height: 35px;
+	background-image: url(../images/h_build.png);
+	background-size: 60px,35px;
+}
+
+.h_build_img_on {
+	margin-top: 11px;
+	position: absolute;
+	left: 18px;
+	width: 60px;
+	height: 35px;
+	background-image: url(../images/h_build_on.png);
+	background-size: 33px,24px;
+}
+
+
+/* vs 画像 */
+
+#vs {
+	width: 288px;
+	overflow: hidden;
+	padding: 28px 16px;
+	position: relative;
+}
+
+#vs_left,#vs_right {
+	width: 288px;
+	padding: 0 16px;
+	text-align: left;
+}
+
+#vs_img {
+	background-image: url(../images/vs_img_bg.png);
+	width: 248px;
+	height: 36px;
+	padding: 6px 16px;
+	background-size: 59px,36px;
+	background-position: center left;
+	background-repeat: no-repeat;
+	margin-left: 24px;
+	clear: both;
+}
+
+#icon1_frame {
+	width: 102px;
+	height: 102px;
+	background-image: url(../images/icon1.png);
+	background-size: 102px,102px;
+}
+
+#vs_left #icon1_frame {
+	text-align: left;
+	width: 102px;
+	float: left;
+}
+
+#vs_right #icon1_frame {
+	text-align: right;
+}
+
+#icon1 {
+	width: 102px;
+	height: 102px;
+	background-image:url(../images/no_img.png);
+	background-size: 81px, 81px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: left;
+}
+
+.name_input1 {
+	width: auto;
+	float: right;
+	position: absolute;
+	top: 33px;
+	left: 134px;
+	text-align: left;
+	color: #fff;
+	font-size:14px;
+}
+
+.name_input2 {
+	width: auto;
+	float: right;
+	position: absolute;
+	top: 184px;
+	left: 134px;
+	text-align: left;
+	color: #fff;
+	font-size:14px;
+}
+
+
+/* vs name */
+
+#icon_name {
+	width: 288px;
+	min-height: 43px;
+	overflow: hidden;
+	padding: 15px 16px 0 16px;
+}
+
+#icon_name_l,#icon_name_r {
+	width: 144px;
+	height: 43px;
+	background-size:144px,43px;
+	background-repeat:no-repeat;
+}
+
+#icon_name_l {
+	background-image:url(../images/icon_name_l.png);
+	float:left;
+	text-align: left;
+}
+
+#icon_name_r {
+	background-image:url(../images/icon_name_r.png);
+	float:right;
+	text-align: right;
+}
+
+#icon_name_l span,#icon_name_r span {
+	font-size:12px;
+	color: #fff;
+	line-height: 3.5;
+}
+
+#icon_name_l span {
+	text-align: left;
+	padding-left: 20px;
+}
+
+#icon_name_r span {
+	text-align: right;
+	padding-right:20px;
+}
+
+ul {
+	clear: both;
+}
+
+/* フッターナビ */
+
+#footer {
+	width: 100%;
+    margin:0px auto;
+    min-height: 44px;
+    bottom : 0px;
+}
+
+#footer ul li {
+	float: left;
+	list-style: none;
+	width: 80px;
+	height: 44px;
+}
+
+#footer ul li:nth-child(1) {
+	background-image:url(../images/ftli_01.png);
+	background-size: 80px,44px;
+}
+
+#footer ul li:nth-child(2) {
+	background-image:url(../images/ftli_02.png);
+	background-size: 80px,44px;
+}
+
+#footer ul li:nth-child(3) {
+	background-image:url(../images/ftli_03.png);
+	background-size: 80px,44px;
+}
+
+#footer ul li:nth-child(4) {
+	background-image:url(../images/ftli_04.png);
+	background-size: 80px,44px;
+}
+
+.num1 {
+	width: 105px;
+	height: 10px;
+	background-image: url(../images/num.png);
+	background-size: 105px,31px;
+	margin-top: 6px;
+}
+
+.num1 div {
+	width: 16px;
+	height: 16px;
+	color: #fff;
+	font-weight: normal;
+	font-size: 10px;
+	float: left;
+	background-image: url(../images/num_bg.png);
+	background-size: 16px,16px;
+	line-height: 1.4;
+}
+
+#preview1,#preview2 {
+	background-size:100px,100px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../images/no_img.png);
+}
+ 
+
+/* 入力欄 */
+
+input {
+	background-color: #292c32;
+	color: #fff;
+	font-size:14px;
+}
+
+
+/* 作成ボタン */
+
+#builtbtn {
+	width: 130px;
+	height: 45px;
+	background-size: 130px,45px;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+.builtbtn_img {
+	width: 130px;
+	height: 45px;
+	background-image: url(../images/build.png);
+	background-size: 130px,45px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.builtbtn_img_on {
+	width: 130px;
+	height: 45px;
+	background-image: url(../images/build_on.png);
+	background-size: 130px,45px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/* float */
+
+left {
+
+	float: left;
+}
+
+right {
+	float: right;
+}
+
+clear {
+	clear:both;
+}

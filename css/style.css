@@ -1,0 +1,61 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	font-size: 12px;
+	font-family: "Helvetica-Light", "Helvetica Light", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 26pt;
+	letter-spacing:2px;
+	color: #fff;
+	margin: 0 auto 0 auto;
+	background-color:#5b6166;
+}
+
+/* header */
+
+header {
+	color: #fff;
+	background-color:#373737;
+}
+
+header h1 {
+	text-align:center;
+	margin:0;
+}
+
+/* contents */
+
+section#wrapper {
+	text-align: center;
+}
+
+h2 {
+	text-align:center;
+	margin: 40px 0 20px 0;
+}
+
+
+
+
+
+
+
+/* float */
+
+left {
+	float: left;
+}
+
+right {
+	float: right;
+}
+
+clear {
+	clear:both;
+}

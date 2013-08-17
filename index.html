@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 ,minimum-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<title>バトル作成</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css2/style.css" media="all" />
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+<body>
+<div id="wrapper">
+	<section id="header">
+
+		<!--
+<a id="a_back"><div class="h_back">
+			<div id="h_back" class="h_back_img"></div>
+		</div></a>
+-->
+
+		<div id="title"><h1>バトル作成</h1></div>
+		<a id="a_build"><div id="h_build">
+			<div id="h_build" class="h_build_img"></div>
+		</div></a>
+	</section>	
+	<section>
+		<h2>
+			<span>あなたが戦わせたいモノは？</span>
+		</h2>
+	</section>
+	<div>
+		<div id="vs_left">
+			<img id="preview1" height='100px' width='100px'>
+			<input type="file" accept="image/*" id="imageInput1">
+			<input type="text" name="example" id="name1">
+		</div>
+		<div id="vs_img"></div>
+		<div id="vs_right">
+			<input type="text" name="example" id="name2"><br>
+				<input type="file" accept="image/*" id="imageInput2">
+				<img id="preview2" height='100px' width='100px'>
+			<h3>コメント</h3>
+			<input type="text"  id="commentbox">
+		</div>
+	</div>
+	<!--
+<section id="vs">
+		<div id="vs_left">
+			<div id="icon1_frame"><div id="icon1"></div></div>
+			<div class="name_input1">
+				<p>名称の入力</p>
+				<form name="submit">
+					<textarea name="comment" rows="1" cols="20"></textarea><br>
+				</form>
+			</div>
+		</div>
+		<div id="vs_img"></div>
+		<div id="vs_right">
+			<div id="icon1_frame"><div id="icon1"></div></div>
+			<div class="name_input2">
+				<p>名称の入力</p>
+				<form name="submit">
+					<textarea name="comment" rows="1" cols="20"></textarea><br>
+				</form>
+			</div>
+		</div>
+				<input type="text" name="example" id="name2"><br>
+					<input type="file" accept="image/*" id="imageInput2">
+					<img id="preview2" height='100px' width='100px'>
+				<h3>コメント</h3>
+				<input type="text"  id="commentbox">
+				<input type="submit" value="作成" class="builtbtn">
+	</section>
+-->
+	<div id="builtbtn"><div class="builtbtn_img"></div></div>
+
+<!--
+<section id="footer">
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</section>
+-->
+
+</div>
+<!--
+	<header><h1>きのこの山 VS たけのこの里</h1></header>
+	<section id="wrapper">
+		<h2>あなたはどっち派？</h2>
+		<a href="../comment_list/index.html?vs1">
+			<img id="vote_icon1" src = "images/icon1.png" alt="icon1" width="100px" height="100px" onClick="vote_icon1()"></a>
+			vs
+			<a href="../comment_list/index.html?vs2">
+			<img id="vote_icon2" src = "images/icon2.png" alt="icon2" width="100px" height="100px" onClick="vote_icon2()"></a>
+	</section>
+-->
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/add_hidden.js"></script>
+	<script type="text/javascript" src="js/location_href.js"></script>
+</body>
+</html>
